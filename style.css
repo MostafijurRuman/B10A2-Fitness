@@ -1,0 +1,52 @@
+/* Global Style */
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.title-font{
+color: #FFF;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 57.6px;
+}
+
+.text{
+color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+}
+
+.btn-primary{
+display: flex;
+width: 224px;
+padding: 16px 40px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+
+border-radius: 42px;
+border: none;
+background: #E6533C;
+
+color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight:600;
+line-height: 22px; 
+}
+  
