@@ -3,6 +3,8 @@
   border: none;
   text-decoration: none;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .inter {
     font-family: "Inter", sans-serif;
@@ -65,7 +67,10 @@ body{
  width: 50%;
 }
 header{
-  
+  padding-top: 52px;
+  margin: 0 10%;
+}
+section{
   margin: 0 10%;
 }
 
@@ -126,6 +131,7 @@ line-height: 120%; /* 93.6px */
   line-height: 120%;
 }
 .banner-con>p{
+  margin-top: 28px;
   color: rgba(255, 255, 255, 0.50);
   /* body-text */
   font-family: Inter;
@@ -286,6 +292,43 @@ line-height: 120%; /* 93.6px */
 }
 
 
+/* Habit section start here */
+.habit-con>h1{
+text-align: center;
+margin-top: 100px;
+}
+.habit-con>p{
+text-align: center;
+margin-top: 14px;
+margin-bottom: 58px;
+}
+
+.card-con>img{
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+.card-con>h1{
+color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+text-align: center;
+margin-top: 30px;
+}
+.card-con>p{
+text-align: center;
+margin-top: 5px;
+}
+
+.all-cards{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
 /* Responsive Code for Mobile */
 
 @media screen and (max-width: 576px) {
@@ -303,12 +346,14 @@ line-height: 120%; /* 93.6px */
   }
 
   
-    header{
+    header,section{
   
-      margin: 0 2dvh;
+      margin: 0 38px;
+  
     }
 
     .banner-con > h1 {
+    margin-top: 51px;
     color: #FFF;
     font-family: Inter;
     font-size: 36px;
@@ -371,5 +416,21 @@ line-height: 120%; /* 93.6px */
     .nukta2 {
       bottom: 43%;
       left: 3%;
+    }
+
+    .all-cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 40px;
+      margin-bottom: 100px;
+    }
+    .habit-con>h1{
+      color: #FFF;
+      font-family: Inter;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 120%; /* 38.4px */
     }
   }
