@@ -328,6 +328,28 @@ margin-top: 5px;
   justify-content: space-around;
   margin-bottom: 100px;
 }
+/* Run an Extra Mile Easily Style*/
+.run{
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  padding: 30px 32px 29px 54px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 165px;
+  align-self: stretch;
+  border-radius: 18px;
+  background: #222;
+  margin-bottom: 100px;
+}
+.lekha-con>p{
+  margin-left: -25px;
+  width: 443px;
+  padding: 14px;
+  padding: 34px;
+}
+
+
 
 /* Responsive Code for Mobile */
 
@@ -383,6 +405,7 @@ margin-top: 5px;
         align-items: center;
         gap: 8px; 
         margin-top: 20px;
+        margin-left: -40px;
       }
     
       .btn-primary,
@@ -411,7 +434,7 @@ margin-top: 5px;
     }
     .nukta1 {
       top: 10%;
-      right: -15%;
+      right: -10%;
     }
     .nukta2 {
       bottom: 43%;
@@ -433,4 +456,48 @@ margin-top: 5px;
       font-weight: 900;
       line-height: 120%; /* 38.4px */
     }
+
+    .run{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0px;
+      padding: 50px;
+      
+    }
+    .lekha-con{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .lekha-con>p{
+      margin-left: 20px;
+      width: 300px;
+    }
+    .btn-primary {
+      width: calc(100% - 80px); 
+      padding: 16px 20px;       
+      margin: 0 40px;           
+      box-sizing: border-box;
+  }
+  .sobi-con {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.sobi-con img {
+    width: 100%;             
+    max-width: 100%;         
+    height: auto;            
+    border-radius: 8px;
+    margin-top: -100px;      
+
+
+    .sobi-con img {
+        width: 95%;          
+    }
+
+
+
   }
