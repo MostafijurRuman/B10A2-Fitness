@@ -361,6 +361,7 @@ margin-top: 5px;
   padding-bottom: 53px;
   margin-top: 88px;
   display: flex;
+  margin-bottom: 88px;
 }
 
 .chart{
@@ -469,7 +470,143 @@ background: rgba(255, 255, 255, 0.10);
   margin-top: 34px;
  }
 
+ /* Meet Our Team section style */
+.trinr{
+  height: 272px;
+  width: 100%;
+  align-self: stretch;
+  border-radius: 18px;
+  background-repeat: no-repeat;
+}
 
+.trainers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  margin-top: 78px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.10);
+  padding: 20px;
+
+}
+.trinr{
+  position: relative;
+}
+.trinr-h{
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 24px */
+}
+
+.trinr-p{
+  color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 16.8px */
+}
+
+.trinr-h {
+  position: absolute;
+  left: 10px;
+  bottom: 30px; 
+  margin: 0;
+}
+
+.trinr-p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px; 
+  margin: 0;
+  
+}
+
+/* footer style start here */
+footer{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+
+.logos{
+color: #E6533C;
+font-family: Inter;
+font-size: 42px;
+font-style: italic;
+font-weight: 800;
+line-height: 120%; /* 84px */
+}
+
+.menu1 > h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+}
+.menu2 > h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+}
+.menu1 > p{
+  color: rgba(255, 255, 255, 0.50);
+cursor: pointer;
+/* P1 Main/Regular */
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 27.6px */
+  
+}
+.menu2 > p{
+  color: rgba(255, 255, 255, 0.50);
+  cursor: pointer;
+/* P1 Main/Regular */
+font-family: Inter;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 27.6px */
+  
+}
+
+.styled-hr {
+  border: none; 
+  height: 2px; 
+  background-color: #333; 
+  margin: 20px 0; 
+  width: 80%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.fcredit{
+  color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 120% */
+letter-spacing: 0.3px;
+margin-bottom: 20px;
+}
 
 /* Responsive Code for Mobile */
 
@@ -660,6 +797,35 @@ background: rgba(255, 255, 255, 0.10);
       margin-top: 15px;
       margin-left: -5px;
 
+    }
+
+    /* Meet Our Team Section Responsive Start */
+    .trainers{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 20px;
+      margin-top: 40px;
+      margin-right: 10%;
+      margin-left: 10%;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.10);
+      padding: 20px;
+    
+    }
+    /* footer responsive code here */
+    footer{
+      margin-left: 10%;
+      margin-right: 10%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      gap: 10px;
+    
+    }
+    .fcredit{
+      text-align: left;
+      margin-left: 10%;
     }
 
   }
